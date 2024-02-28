@@ -1,0 +1,48 @@
+/* Write your CSS here */
+.money-details {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.balance-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+  padding: 20px;
+  background-color: #ecfccb;
+  border: 2px solid #84cc16;
+}
+.income-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+  padding: 20px;
+  background-color: #cffafe;
+  border: 2px solid #06b6d4;
+}
+.expenses-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+  padding: 20px;
+  background-color: #ede9fe;
+  border: 2px solid #7c3aed;
+}
+.transaction-logo {
+  height: 150px;
+  width: 150px;
+}
+.transaction-details {
+  margin-left: 10px;
+}
+.transaction-header {
+  color: #1e293b;
+  font-size: 24px;
+}
+.amount {
+  color: #1e293b;
+  font-size: 32px;
+}
